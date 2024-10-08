@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnLexWay
+namespace ACPortfolio
 {
 
 

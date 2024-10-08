@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace ACPortfolio
+namespace OnLexWay
 {
     public class Global : System.Web.HttpApplication
     {

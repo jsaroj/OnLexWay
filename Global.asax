@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ACPortfolio.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="OnLexWay.Global" Language="C#" %>

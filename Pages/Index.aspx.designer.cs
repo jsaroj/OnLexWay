@@ -7,11 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnLexWay
+
+namespace ACPortfolio
 {
-
-
-    public partial class Blog
+    public partial class Index
     {
     }
 }

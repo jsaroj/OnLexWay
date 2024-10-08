@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="OnLexWay.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Site1.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="ACPortfolio.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -487,7 +487,7 @@
             <div class="content-inner">
                 <div class="row align-items-center">
                     <div class="col-md-12">
-                        <p><b>&copy; Copyright <a href="">On Lex Way</a>. All Rights Reserved.</b></p>
+                        <p><b>&copy; Copyright <span style="color: #FF6F61">Akanksha Chauhan</span>. All Rights Reserved.</b></p>
                     </div> 
                 </div>
             </div>

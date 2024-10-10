@@ -130,12 +130,19 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site1.Master.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="SitePages.Master.cs">
+      <DependentUpon>SitePages.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site1.Master.designer.cs">
-      <DependentUpon>Site1.Master</DependentUpon>
+    <Compile Include="SitePages.Master.designer.cs">
+      <DependentUpon>SitePages.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteBlog.Master.cs">
+      <DependentUpon>SiteBlog.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteBlog.Master.designer.cs">
+      <DependentUpon>SiteBlog.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -149,7 +156,8 @@
     <Content Include="Assets\lib\slick\slick.scss" />
     <Content Include="Assets\img\Akanksha Chauhan Resume.pdf" />
     <None Include="packages.config" />
-    <Content Include="Site1.Master" />
+    <Content Include="SitePages.Master" />
+    <Content Include="SiteBlog.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

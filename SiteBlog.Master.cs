@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace OnLexWay
+namespace ACPortfolio
 {
-    public partial class Blog : System.Web.UI.Page
+    public partial class SiteBlog : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

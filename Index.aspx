@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="OnLexWay.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePages.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="OnLexWay.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,8 +17,8 @@
         <!-- Large Button Start -->
         <div class="large-btn">
             <div class="content-inner">
-                <a class="btn" href="Assets/img/Akanksha Chauhan Resume.pdf" download><i class="fa fa-download"></i>Hire Me, Download Resume</a>
-                <a class="btn" href="#contact"><i class="fa fa-hands-helping"></i>Work With Me</a>
+                <%--<a class="btn" href="Assets/img/Akanksha Chauhan Resume.pdf" download><i class="fa fa-download"></i>Hire Me, Download Resume</a>--%>
+                <a class="btn" href="#contact" style="width: 100%"><i class="fa fa-hands-helping"></i>Contact Me</a>
             </div>
         </div>
         <!-- Large Button End -->
@@ -34,8 +34,8 @@
                         <img src="Assets/img/lawyer.png" alt="Image">
                     </div>
                     <div class="col-md-6 col-lg-7">
-                        <p>I am a dedicated legal professional with a comprehensive background in contract lifecycle management, legal research, analysis, and drafting. With a strong commitment to ensuring compliance, mitigating risks, and upholding data privacy norms, I strive to bring value to every organization I work with. My experience spans various aspects of legal operations, including negotiating contracts, preparing legal documents, and providing strategic counsel to align legal practices with business objectives.</p>
-                        <p>I am passionate about continuously expanding my legal expertise and staying updated with the latest regulations and industry trends. I actively seek innovative approaches to problem-solving and process improvement, allowing me to contribute effectively to organizational success. Driven by a desire to achieve both personal and professional growth, I am committed to delivering high-quality legal services while fostering a culture of compliance and ethical responsibility.</p>
+                        <p>At Onlexway, we provide comprehensive legal services tailored to your business and personal needs. Whether you're looking to protect your intellectual property, navigate complex corporate laws, or need assistance with civil matters, our expertise ensures strategic, accurate, and reliable legal solutions. We believe in the power of collaboration, working closely with our clients to ensure they receive the best legal protection. Onlexway is where precision meets legal excellence, offering a trusted path to securing your rights and achieving your goals. Let us help you pave the way forward with confidence in today’s dynamic legal landscape.</p>
+                        <p>I believe legal services is the drive to empower individuals and businesses with the legal tools they need to succeed. The complexity of the legal landscape often creates barriers, and my goal is to simplify, clarify, and safeguard my clients' rights and interests. Seeing the tangible impact of protecting creative works, fostering fair business practices, and providing peace of mind through legal precision motivates me to keep delivering effective, personalized solutions. Each case is a new challenge, and helping clients navigate these challenges brings immense satisfaction.</p>
                         <%--<a class="btn" href="#">Hire Me</a>--%>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
         <!-- About End -->
 
         <!-- Education Start -->
-        <div class="education" id="education">
+       <%-- <div class="education" id="education">
             <div class="content-inner">
                 <div class="content-header">
                     <h2>Education</h2>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <!-- Education End -->
 
         <!-- Experience Start -->
@@ -176,12 +176,12 @@
                         <div class="srv-col">
                             <h3>Intellectual Property (Trademark) - (Doing Expertise)</h3>
                             <ul>
-                                <li>Conducted comprehensive trademark searches. Nice Classification of goods & services.</li>
-                                <li>Drafted and filed trademark applications.</li>
-                                <li>Prepared and prosecuted trademark oppositions and cancellations.</li>
-                                <li>Cease and Desist/Notice of Trademark Infringement.</li>
-                                <li>Handled trademark renewals and extensions.</li>
-                                <li>Responded to trademark office actions and objections.</li>
+                                <li>Conducted comprehensive trademark searches and classified goods/services under the Nice Classification.</li>
+                                <li>Drafted and filed trademark applications with relevant authorities.</li>
+                                <li>Prepared and handled trademark oppositions and cancellation proceedings.</li>
+                                <li>Issued Cease and Desist notices for trademark infringement.</li>
+                                <li>Managed trademark renewals, extensions, and ongoing maintenance.</li>
+                                <li>Responded to office actions and objections in trademark matters.</li>
                             </ul>
                         </div>
                     </div>
@@ -189,11 +189,12 @@
                         <div class="srv-col">
                             <h3>Civil & Commercial Litigation</h3>
                             <ul>
-                                <li>Drafted and prepared civil pleadings, including complaints, written statement, and counterclaims.</li>
-                                <li>Authored comprehensive written statements.</li>
-                                <li>Conducted thorough analyses of breach of contract cases.</li>
-                                <li>Prepared and argued Injunction petitions in real estate matters.</li>
+                                <li>Drafted and prepared civil pleadings, including complaints, written statements, and counterclaims.</li>
+                                <li>Authored comprehensive written statements and legal briefs.</li>
+                                <li>Conducted thorough analyses of breach of contract cases and legal disputes.</li>
+                                <li>Prepared and argued Injunction petitions in real estate and property matters.</li>
                                 <li>Successfully handled cases under Section 138 of the Negotiable Instruments Act.</li>
+                                <li>Advised clients on legal strategies and procedural matters.</li>
                             </ul>
                         </div>
                     </div>
@@ -233,9 +234,12 @@
                         <div class="srv-col">
                             <h3>Family Law</h3>
                             <ul>
-                                <li>Mutual Consent Divorce proceedings.</li>
-                                <li>Counselling clients on divorce procedures and legal implications.</li>
+                                <li>Handling mutual consent divorce proceedings.</li>
+                                <li>Counselling clients on divorce procedures and their legal implications.</li>
+                                <li>Advising on legal strategies and possible outcomes.</li>
                                 <li>Drafting and negotiating settlement agreements.</li>
+                                <li>Mediating discussions between parties to reach an amicable solution.</li>
+                                <li>Ensuring compliance with all legal formalities and court orders.</li>
                             </ul>
                         </div>
                     </div>
@@ -248,35 +252,68 @@
         <div class="service" id="service">
             <div class="content-inner">
                 <div class="content-header">
-                    <h2>Service</h2>
+                    <h2>Services</h2>
                 </div>
-                <div class="row align-items-center">
+                <div class="row align-items-top">
                     <div class="col-md-6">
                         <div class="srv-col">
-                            <i class="fa fa-desktop"></i>
-                            <h3>Web Design</h3>
-                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                            <i class="fa fa-lightbulb"></i>
+                            <h3>Intellectual Property and Media Law</h3>
+                            <p><strong>Intellectual Property Law:</strong> IP filings, objections, cancellations, and renewals (trademarks, patents, copyrights).</p>
+                            <p><strong>Media & Entertainment Law:</strong> Contracts, compliance, and protection in entertainment, media, and sports.</p>
+                            <p><strong>Media Law - Licensing Contracts:</strong> Negotiating and drafting licensing agreements in media and entertainment.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="srv-col">
-                            <i class="fa fa-laptop"></i>
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                            <i class="fa fa-file-contract"></i>
+                            <h3>Contract Law</h3>
+                            <br />
+                            <p><strong>Contract Drafting & Negotiation:</strong> Drafting/reviewing commercial and service contracts.</p>
+                            <p><strong>International Contracts:</strong> Cross-border contract negotiations and enforcement.</p>
+                            <p><strong>Technology Contracts:</strong> Software licensing and SaaS agreements.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="srv-col">
-                            <i class="fa fa-search"></i>
-                            <h3>SEO</h3>
-                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                            <i class="fa fa-shield-alt"></i>
+                            <h3>Technology and Data Protection</h3>
+                            <p><strong>Technology Law:</strong> Data privacy, cybersecurity, and compliance with tech regulations.</p>
+                            <p><strong>Fintech Regulation:</strong> Legal guidance on fintech compliance and innovation.</p>
+                            <p><strong>Data Protection & Privacy:</strong> Compliance with Indian data protection laws.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="srv-col">
-                            <i class="fa fa-envelope-open-text"></i>
-                            <h3>Digital Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                            <i class="fa fa-building"></i>
+                            <h3>Business, Corporate, and Competition Law</h3>
+                            <p><strong>Business Law:</strong> Formation, governance, mergers, acquisitions, and corporate compliance.</p>
+                            <p><strong>Corporate Practice:</strong> Handling corporate governance, mergers, and acquisitions.</p>
+                            <p><strong>Competition Law:</strong> Anti-competitive practices, abuse of dominance, and regulatory compliance.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="srv-col">
+                            <i class="fa fa-gavel"></i>
+                            <h3>Litigation and Defense</h3>
+                            <br />
+                            <p><strong>Tax Litigation:</strong> Representing clients in tax disputes and litigation.</p>
+                            <p><strong>White-Collar Crime Defense:</strong> Defending clients against financial crime allegations.</p>
+                            <p><strong>Consumer Disputes:</strong> Handling disputes related to defective goods, services, and unfair trade practices.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="srv-col">
+                            <i class="fa fa-chart-bar"></i>
+                            <h3>Capital Markets and Financial Law</h3>
+                            <p><strong>Capital Markets & Securities Law:</strong> IPOs, stock exchange regulations, and securities law compliance.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="srv-col">
+                            <i class="fa fa-globe"></i>
+                            <h3>Domain Disputes</h3>
+                            <p><strong>Domain Disputes:</strong> Resolving disputes around trademark infringement and cybersquatting.</p>
                         </div>
                     </div>
                 </div>
@@ -442,8 +479,8 @@
                         <div class="contact-info">
                             <p><i class="fa fa-user"></i>Akanksha Chauhan</p>
                             <p><i class="fa fa-tag"></i>Corporate Lawyer</p>
-                            <p><i class="fa fa-envelope"></i><a href="mailto:info@example.com">info@example.com</a></p>
-                            <p><i class="fa fa-phone"></i><a href="tel:+1234567890">+123-456-7890</a></p>
+                            <p><i class="fa fa-envelope"></i><a href="mailto:onlexway.legal@gmail.com">onlexway.legal@gmail.com</a></p>
+                            <p><i class="fa fa-phone"></i><a href="tel:+1234567890">+91 95613 75912</a></p>
                             <p><i class="fa fa-map-marker"></i>Pune, Maharashtra</p>
                             <div class="social">
                                 <a class="btn" href=""><i class="fab fa-twitter"></i></a>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ACPortfolio
+namespace OnLexWay
 {
     public partial class SiteBlog : System.Web.UI.MasterPage
     {

@@ -69,6 +69,9 @@
   <ItemGroup>
     <Content Include="Assets\css\style.css" />
     <Content Include="Assets\img\about.jpg" />
+    <Content Include="Assets\img\l1.png" />
+    <Content Include="Assets\img\l2.png" />
+    <Content Include="Assets\img\l3.png" />
     <Content Include="Assets\img\lawyer.png" />
     <Content Include="Assets\img\portfolio-1.jpg" />
     <Content Include="Assets\img\portfolio-2.jpg" />

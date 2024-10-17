@@ -30,7 +30,7 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-6 col-lg-5">
-                        <img src="Assets/img/lawyer.png" alt="Image">
+                        <img src="Assets/img/about.png" alt="Image">
                     </div>
                     <div class="col-md-6 col-lg-7">
                         <p>At Onlexway, we provide comprehensive legal services tailored to your business and personal needs. Whether you're looking to protect your intellectual property, navigate complex corporate laws, or need assistance with civil matters, our expertise ensures strategic, accurate, and reliable legal solutions. We believe in the power of collaboration, working closely with our clients to ensure they receive the best legal protection. Onlexway is where precision meets legal excellence, offering a trusted path to securing your rights and achieving your goals. Let us help you pave the way forward with confidence in today’s dynamic legal landscape.</p>
@@ -347,7 +347,7 @@
                             <p><i class="fa fa-user"></i>Akanksha Chauhan</p>
                             <p><i class="fa fa-tag"></i>Corporate Lawyer</p>
                             <p><i class="fa fa-envelope"></i><a href="mailto:onlexway.legal@gmail.com">onlexway.legal@gmail.com</a></p>
-                            <p><i class="fa fa-phone"></i><%--<a href="tel:+919561375912">+91 95613 75912</a>--%></p>
+                            <%--<p><i class="fa fa-phone"></i><a href="tel:+919561375912">+91 95613 75912</a></p>--%>
                             <p><i class="fa fa-map-marker"></i>Pune, Maharashtra</p>
                             <div class="social">
                                 <a class="btn" href=""><i class="fab fa-twitter"></i></a>

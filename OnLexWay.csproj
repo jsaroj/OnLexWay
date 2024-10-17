@@ -68,18 +68,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\css\style.css" />
-    <Content Include="Assets\img\about.jpg" />
+    <Content Include="Assets\img\about.png" />
     <Content Include="Assets\img\l1.png" />
     <Content Include="Assets\img\l2.png" />
     <Content Include="Assets\img\l3.png" />
     <Content Include="Assets\img\lawyer.png" />
+    <Content Include="Assets\img\logo.png" />
     <Content Include="Assets\img\portfolio-1.jpg" />
     <Content Include="Assets\img\portfolio-2.jpg" />
     <Content Include="Assets\img\portfolio-3.jpg" />
     <Content Include="Assets\img\portfolio-4.jpg" />
     <Content Include="Assets\img\portfolio-5.jpg" />
     <Content Include="Assets\img\portfolio-6.jpg" />
-    <Content Include="Assets\img\profile.jpg" />
     <Content Include="Assets\img\profile.png" />
     <Content Include="Assets\img\quote.png" />
     <Content Include="Assets\img\review-1.jpg" />
@@ -157,7 +157,6 @@
     <Content Include="Assets\lib\slick\slick-theme.scss" />
     <Content Include="Assets\lib\slick\slick.less" />
     <Content Include="Assets\lib\slick\slick.scss" />
-    <Content Include="Assets\img\Akanksha Chauhan Resume.pdf" />
     <None Include="packages.config" />
     <Content Include="SitePages.Master" />
     <Content Include="SiteBlog.Master" />

@@ -7,14 +7,14 @@
     <meta charset="utf-8">
     <title>On Lex Way</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Resume Website Template Free Download" name="keywords">
-    <meta content="Resume Website Template Free Download" name="description">
+    <meta content="On Lex Way" name="keywords">
+    <meta content="On Your Side, On Lex Way" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="Assets/img/logo.png" rel="icon">
 
     <!-- Google Fonts -->
-    <%--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">--%>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
         <div class="wrapper">
             <div class="sidebar">
                 <div class="sidebar-header">
-                    <img src="Assets/img/l3.png" alt="Image">
+                    <img src="Assets/img/logo.png" alt="Image">
                 </div>
                 <div class="sidebar-content">
                     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -71,12 +71,7 @@
                             </ul>
                         </div>
                     </nav>
-                </div>
-               <%-- <div class="sidebar-footer">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>--%>
+                </div> 
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
